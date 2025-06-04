@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
+import f2 from "../assets/f2.jpeg"
 
 const Home = () => {
   return (
@@ -17,7 +18,7 @@ const Home = () => {
             </article>
         </section>
         <div className='relative z-10 w-[100%] '>
-        <img style={{ backgroundImage:`url("src/Components/assets/f1.jpeg")`,height:"100%", backgroundSize:"cover",backgroundPosition:"center",Width:"100%",backgroundRepeat:"no-repeat",}} src='src/Components/assets/f2.jpeg' className='w-full h-full relative'/>
+        <img style={{ backgroundImage:`url("src/Components/assets/f1.jpeg")`,height:"100%", backgroundSize:"cover",backgroundPosition:"center",Width:"100%",backgroundRepeat:"no-repeat",}} src={f2} className='w-full h-full relative'/>
         <section className='absolute top-3 w-full flex-col overflow-y-scroll h-[90%]'>
         <h1 className='  text-[white] text-8xl px-[5%]'>Hi,</h1>
         <h1 style={{ lineHeight: "2.5" }} className=' flex-wrap text-[white] text-5xl whitespace-pre-wrap tracking-[3px] px-[8%] '>epdi   irukeenga   neenga   idha   paakureenga   na   kadaisiya   idha   muchiten   nu   nenaikure   idha   seiya   aaarambichi   innaioda   15   naal   aavudhu 

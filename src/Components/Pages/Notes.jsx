@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import f5 from "../assets/f5.jpeg"
 
 const Notes = () => {
   return (
@@ -18,7 +19,7 @@ const Notes = () => {
             </article>
         </section>
             <article className='relative flex w-full h-full'>
-            <img style={{ backgroundImage:`url("src/Components/assets/f5.jpeg")`,height:"100%", backgroundSize:"cover",backgroundPosition:"center",Width:"100%",backgroundRepeat:"no-repeat",}} src='src/Components/assets/f5.jpeg' className='w-full h-full relative'/>
+            <img style={{ backgroundImage:`url("src/Components/assets/f5.jpeg")`,height:"100%", backgroundSize:"cover",backgroundPosition:"center",Width:"100%",backgroundRepeat:"no-repeat",}} src={f5} className='w-full h-full relative'/>
             <section className='absolute  w-full h-full'>
             <ul className='flex flex-col w-full h-full justify-evenly absolute text-2xl'>
                 <div className='w-[100%] justify-evenly p-2 flex'>

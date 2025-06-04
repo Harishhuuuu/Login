@@ -1,6 +1,7 @@
 import React from 'react'
 import './You1.css'
 import { NavLink } from 'react-router-dom'
+import s2 from "../assets/s2.jpeg"
 
 const You2 = () => {
   return (
@@ -20,7 +21,7 @@ const You2 = () => {
             </article>
         </section>
                 <div className=' flex w-full h-full relative'>
-                    <img style={{ backgroundImage:`url("src/Components/assets/s2.jpeg")`,height:"100%", backgroundSize:"cover",backgroundPosition:"center",Width:"100%",backgroundRepeat:"no-repeat",}} src='src/Components/assets/s2.jpeg' className='w-full h-full relative'/>
+                    <img style={{ backgroundImage:`url("src/Components/assets/s2.jpeg")`,height:"100%", backgroundSize:"cover",backgroundPosition:"center",Width:"100%",backgroundRepeat:"no-repeat",}} src={s2} className='w-full h-full relative'/>
                     <div className='w-full h-[100%] absolute text-white p-[5%] overflow-scroll '>
                         <h1 className='pl-[20%] fff'>Hey ....</h1>
                         <h1 className='fff'></h1>

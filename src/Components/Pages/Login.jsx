@@ -7,7 +7,7 @@ import { useState } from 'react'
 import NavBar from '../NavbarContainer/NavBar';
 import Logo from '../NavbarContainer/Logo';
 import Menu from '../NavbarContainer/Menu';
-
+import f1 from "../assets/f1.jpeg"
 
 const Login = () => {
 
@@ -54,6 +54,7 @@ const Login = () => {
 
     <div className='h-full'>
     <div style={{ backgroundImage:`url("src/Components/assets/f1.jpeg")`,height:"1500px", backgroundSize:"cover",backgroundPosition:"center",Width:"100%",backgroundRepeat:"no-repeat",}} className='w-full h-[100vh] flex items-center justify-center'>
+          <img style={{ backgroundImage:`url("src/Components/assets/f1.jpeg")`,height:"100%", backgroundSize:"cover",backgroundPosition:"center",Width:"100%",backgroundRepeat:"no-repeat",}} src={f1} className='w-full h-full relative'/>
   <article className='h-[400px] w-[300px] absolute top-[30%] rounded-md bg-black text-3xl text-[#E9A5F1]'>
       <form onSubmit={checkpassword}>
       <h2 className='font-extrabold text-[#E9A5F1] text-center border-b-4 border-[#E9A5F1] pb-3'>Log In</h2>
