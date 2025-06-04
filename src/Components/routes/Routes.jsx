@@ -1,4 +1,4 @@
-import { createBrowserRouter,RouterProvider } from "react-router-dom";
+import { createBrowserRouter,RouterProvider,createHashRouter,HashRouter } from "react-router-dom";
 import Layout from "../Layout/Layout";
 import Home from './../Pages/Home';
 import Login from "../Pages/Login";
@@ -15,7 +15,7 @@ import You8 from "../Yous/You8";
 import You9 from "../Yous/You9";
 
 
-let myroutes=createBrowserRouter([
+let myroutes=createHashRouter([
     {
         path:"/",
         element:<Layout/>,

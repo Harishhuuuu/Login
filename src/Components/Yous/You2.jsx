@@ -23,7 +23,15 @@ const You2 = () => {
                 <div className=' flex w-full h-full relative'>
                     <img style={{ backgroundImage:`url("src/Components/assets/s2.jpeg")`,height:"100%", backgroundSize:"cover",backgroundPosition:"center",Width:"100%",backgroundRepeat:"no-repeat",}} src={s2} className='w-full h-full relative'/>
                     <div className='w-full h-[100%] absolute text-white p-[5%] overflow-scroll '>
-                        <h1 className='pl-[20%] fff'>Hey ....</h1>
+                        <h1 className=' fff'>Fiza,
+Adikadi na aprm pesalaam nu sollirupen,
+sila vaati msg ah paathutuka maten, 
+Enake theriyudhu namma pesura konja time a kuda na innum kammi panniduren nu,
+Aana Na edhayum Venum nu pannala ,
+Timeing apdi Iruku enaku , 
+Innaiku 27 april 25 innai la irundhu na apdi aprm pesalaam ,class Iruku,veliya ponum nu solluradhellam kammi pannanum nu try pandren.
+
+Sorry....</h1>
                         <h1 className='fff'></h1>
                     </div>
                 </div>

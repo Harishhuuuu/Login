@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className=''>
       <section className='sticky top-0 z-20  '>
-            <article className="h-[20vh] border-3 border-[#FED2E2]  bg-[#8F87F1] flex justify-evenly items-center">
+            <article className="h-[20vh]  border-3 border-[#FED2E2]  bg-[#8F87F1] flex justify-evenly items-center">
                 <div className="aaaa  overflow-scroll ">
                     <ul className="text-white flex justify-evenly gap-3 m-4">
                         <li><NavLink to="/Home"><button className="border-4 h-[100%] p-2 w-[100%] bg-[#8F87F1]  px-8 border-[#FED2E2] ">home</button></NavLink></li>
